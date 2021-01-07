@@ -1,3 +1,29 @@
+body{
+    font-family: Tahoma;
+}
+
 h1{
     font-size: 55px;
+} 
+.name-highlight{
+    color: #FF7F50;
+}
+.half-widt{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.half-widt img{
+width: 100%;
+}
+section{
+    height: 500px;
+}
+.link-button{
+    text-decoration: none;
+    background-color: #FF7F50;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
 }
