@@ -1,9 +1,11 @@
 body{
+   margin: 0;
     font-family: Tahoma;
 }
 
 h1{
     font-size: 55px;
+    font-family: Tahoma;
 } 
 .name-highlight{
     color: #FF7F50;
@@ -19,6 +21,7 @@ width: 100%;
 }
 section{
     height: 500px;
+    padding-bottom: 150px;
 }
 .link-button{
     text-decoration: none;
@@ -26,4 +29,21 @@ section{
     padding: 10px 20px;
     border-radius: 5px;
     color: white;
+}
+.work{
+    box-shadow: 10px 10px 40px gray;
+}
+.one-third img{
+    width: 100%;
+    height: 100%;
+}
+.one-third{ 
+    float: left;
+    width: 25%;
+    padding: 5px;
+    display: table;
+}
+.shapes{
+    width: 70%;
+    height: 40%;
 }
